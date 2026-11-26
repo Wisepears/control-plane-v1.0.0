@@ -1,6 +1,19 @@
 # 控制面 v1.0.1
 
-把控制面和领域面的协作方式用在多个项目。共用规则放在 [control-plane 技能](skills/control-plane/SKILL.md)，项目从 [AGENTS.md](skills/control-plane/assets/project/AGENTS.md) 进入自己的目标、原话、理解、词汇表和决定。
+这个仓库提供一个 Codex 技能，把控制面和领域面的骨架装进新项目。
+
+## 仓库里的文件会放到哪里
+
+仓库中需要看的文件都在 [skills/control-plane/](skills/control-plane) 下。表里的「新项目」就是你说「初始化当前项目」时打开的那个项目。
+
+| 仓库里的位置 | 用途 | 初始化后的位置 |
+|---|---|---|
+| [SKILL.md](skills/control-plane/SKILL.md) | Codex 接到「用控制面初始化」时读的入口 | 它随技能安装 |
+| [assets/project/](skills/control-plane/assets/project) | 项目文档模板 | 从新项目根目录展开。例如模板中的 AGENTS.md 变成新项目根目录的 AGENTS.md，OBJECTIVE.md 在那里记录这个项目自己的目标 |
+| [references/runtime/](skills/control-plane/references/runtime) | 交流内核、产出规则和每轮工作流程 | 整个目录的内容放进新项目的 foundation/。例如 communication-core.md 到 foundation/communication-core.md，control-plane/workflow.md 到 foundation/control-plane/workflow.md |
+| [scripts/initialize.py](skills/control-plane/scripts/initialize.py) | 把上面两组文件放到各自位置 | 它随技能安装 |
+
+**初始化完成后，从新项目的 AGENTS.md 开始读。** 想知道去哪里找规则和领域知识，再打开它指向的 foundation/README.md。
 
 ## 在新项目初始化
 
