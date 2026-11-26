@@ -1,15 +1,27 @@
-# AI 对控制面和问题域的当前理解
+# AI 对控制面和问题域的当前理解（动态文档）
+
+<a id="正文的出处"></a>
 
 ＜?...!＞
+[整体理解原话](ORIGINAL-INTENT.md#u41) · [动态重构原话](ORIGINAL-INTENT.md#u125) · [项目目标](OBJECTIVE.md)
+
+<a id="control-understanding"></a>
 ## 对控制面的当前理解
 
-[项目适用的控制面](foundation/README.md)
+控制面由大脑方法论和单一路口组成，内核、Matt 技能、产出都是大脑。 [原话](ORIGINAL-INTENT.md#u198) · [原话](ORIGINAL-INTENT.md#u199) · [大脑结构原话](ORIGINAL-INTENT.md#u218)
 
+大脑方法论查[方法原文](foundation/communication-core.md#方法原文)；单一路口查[控制面导航](foundation/README.md#control-plane)；开工查[每轮必读](AGENTS.md#每轮必读)；判断依据从[领域查找](foundation/README.md#domain-lookup)补齐。
+
+<a id="problem-understanding"></a>
 ## 问题域
 
-根据本项目的[目标](OBJECTIVE.md)、[原话](ORIGINAL-INTENT.md)和证据更新。
+你问「接下来干嘛」时，先结合已有成果，找出哪件事卡住了你眼下的目标，再定下一步。 [主导职责原话](ORIGINAL-INTENT.md#u20)
 
+[入口原话](ORIGINAL-INTENT.md#u213) · [知识同步原话](ORIGINAL-INTENT.md#u137) · [直接引用原文的要求](ORIGINAL-INTENT.md#u217)
+
+<a id="leadership"></a>
 ## 主导
 
-记录下一件工作、它解决的缺口和完成依据。
+下一项常规项目任务从[每轮必读](AGENTS.md#每轮必读)开工。交付前用本轮结论核对是否有依赖的原话、决定或证据需要补读，并用实际动作说明采用了哪个引导词。
+
 ＜/?...!＞

@@ -1,7 +1,54 @@
 # 控制面词汇表
 
 ＜?...!＞
-- **产出**。[产出定义](control-plane/outputs.md#产出定义)
-- **重构**。[交流内核【2】](control-plane/communication-core.md#part-2)
-- **引导词**。[引导词原文](control-plane/matt/writing-great-skills.md#leading-words)
+[词汇表用途原话](关于内容维护.md#maintenance-principles) · [控制面职能原话](../ORIGINAL-INTENT.md#u129)
+
+术语素材从用户上下文（原话）来，聚焦用户关心的控制面内容。 [上下文差异原话](../ORIGINAL-INTENT.md#u128)
+
+＜!!＞
+我的上下文 你的上下文 独立agent的上下文都不一样，你向我说话要基于我的上下文 你上面说准备测试一下，你用的是你的上下文 你怎么保证是你懂了架构 还是架构独立存在就能被懂
+＜/!!＞
+[原话](../ORIGINAL-INTENT.md#u128)
+
+## 术语
+
+### 产出
+
+＜!!＞
+产出的意思我原话里讲过吧，包括了AI推理的所有产出 如推理下一个字 生成对我的回复和对别的AI和对自己等沟通 生成代码 生成文件文档都是产出 我原话说过吗， 所以你要把writing for  agent的指针也引入，然后用户主动要求整理本文时改成产出内容时
+＜/!!＞
+[原话](../ORIGINAL-INTENT.md#u122)
+
+用例：推理下一个字、生成对用户的回复、生成对别的 AI 和对自己等沟通、生成代码、生成文件文档，都属于产出。
+
+### 重构
+
+＜!!＞
+重构是一种能指和所指断裂处，分析问题的方式，不是简单的重构某个东西，它是方法论
+＜!!＞
+[原话](../ORIGINAL-INTENT.md#u136)
+
+用例：追问暴露上一版答案的断裂时，先修好受影响的一段，再用具体用例核对，这一动作就是重构。 [写回入口](control-plane/output-template.md#write-back)
+
+### 引导词
+
+＜!!＞
+我想用引导词和matt提到的分布式定义来收敛沟通
+＜/!!＞
+[原话](../ORIGINAL-INTENT.md#u158)
+
+用例：用“引导词”约束 AI 的沟通和产出，收敛到用户关心的内容。
+
+## 待从原话澄清的术语
+
+以下控制面术语在你的原话中出现且影响判断，定义和具体用例待从对应用户原话提取。
+
+| 术语 | 用户原话 |
+|---|---|
+| 控制面 / 领域面 | [u129](../ORIGINAL-INTENT.md#u129) |
+| 每轮必读 | [u123](../ORIGINAL-INTENT.md#u123) · [u159](../ORIGINAL-INTENT.md#u159) |
+| 大脑 | [u199](../ORIGINAL-INTENT.md#u199) |
+| 痛点 | [u120](../ORIGINAL-INTENT.md#u120) |
+| 搁置讨论 | [u129](../ORIGINAL-INTENT.md#u129) |
+
 ＜/?...!＞

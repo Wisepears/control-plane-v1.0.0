@@ -59,7 +59,7 @@ def plan(target):
 
     templates = collect_files(PACKAGE / "assets/project")
     common = {
-        COMMON / relative: content
+        COMMON.parent / relative: content
         for relative, content in collect_files(PACKAGE / "references/runtime").items()
     }
     assert templates and common
