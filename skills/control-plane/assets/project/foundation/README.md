@@ -19,6 +19,7 @@
 
 追溯需求时，查[原话文档](../ORIGINAL-INTENT.md#intent-purpose)。核对规则依据时，沿负责文档内的锚点找到对应原话。 [In-file reference 规则](关于内容维护.md#inner-reference)
 
+控制面的[工作流程](control-plane/workflow.md)。
 <a id="problem-domain"></a>
 ## 领域面
 
