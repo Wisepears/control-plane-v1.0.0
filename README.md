@@ -9,11 +9,10 @@
 | 仓库里的位置 | 用途 | 初始化后的位置 |
 |---|---|---|
 | [SKILL.md](skills/control-plane/SKILL.md) | Codex 接到「用控制面初始化」时读的入口 | 它随技能安装 |
-| [assets/project/](skills/control-plane/assets/project) | 项目文档模板 | 从新项目根目录展开。例如模板中的 AGENTS.md 变成新项目根目录的 AGENTS.md，OBJECTIVE.md 在那里记录这个项目自己的目标 |
-| [references/runtime/](skills/control-plane/references/runtime) | 交流内核、产出规则和每轮工作流程 | 整个目录的内容放进新项目的 foundation/。例如 communication-core.md 到 foundation/communication-core.md，control-plane/workflow.md 到 foundation/control-plane/workflow.md |
-| [scripts/initialize.py](skills/control-plane/scripts/initialize.py) | 把上面两组文件放到各自位置 | 它随技能安装 |
+| [assets/project/](skills/control-plane/assets/project) | 可直接浏览的项目模板 | 按原目录放到新项目根目录。例如 AGENTS.md 放到项目根目录，foundation/communication-core.md 放到项目的 foundation/ 目录 |
+| [scripts/initialize.py](skills/control-plane/scripts/initialize.py) | 把项目模板放到目标项目 | 它随技能安装 |
 
-**初始化完成后，从新项目的 AGENTS.md 开始读。** 想知道去哪里找规则和领域知识，再打开它指向的 foundation/README.md。
+在 GitHub 上可以直接从[模板的 AGENTS.md](skills/control-plane/assets/project/AGENTS.md) 点进去。初始化完成后，从新项目的 AGENTS.md 开始读。 想知道去哪里找规则和领域知识，再打开它指向的 foundation/README.md。
 
 ## 在新项目初始化
 
@@ -34,4 +33,4 @@ python skills/control-plane/scripts/initialize.py --target "<项目根目录>"
 
 ## 内容归属
 
-共用交流内核、每轮工作流程、产出、内容维护、领域建模与协作记录随版本发布。项目自己的原话、目标、领域事实、取舍和记录保存在各项目。Matt Pocock 方法原文及许可见[随附许可](skills/control-plane/references/runtime/skills/mattpocock/LICENSE)。
+共用交流内核、每轮工作流程、产出、内容维护、领域建模与协作记录随版本发布。项目自己的原话、目标、领域事实、取舍和记录保存在各项目。Matt Pocock 方法原文及许可见[随附许可](skills/control-plane/assets/project/foundation/skills/mattpocock/LICENSE)。

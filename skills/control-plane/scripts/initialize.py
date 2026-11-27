@@ -7,6 +7,11 @@ from tempfile import NamedTemporaryFile
 
 PACKAGE = Path(__file__).resolve().parents[1]
 COMMON = Path("foundation/control-plane")
+VENDORED_METHODS = Path("foundation/skills/mattpocock")
+SHARED_DOCUMENTS = {
+    Path("foundation") / name
+    for name in ("communication-core.md", "关于内容维护.md", "关于所有的产出.md", "关于新文件.md")
+}
 START = b"<!-- control-plane:start -->"
 END = b"<!-- control-plane:end -->"
 
@@ -58,19 +63,20 @@ def plan(target):
         raise ValueError(f"项目已经使用控制面 {installed.decode('utf-8').strip()}")
 
     templates = collect_files(PACKAGE / "assets/project")
-    common = {
-        COMMON.parent / relative: content
-        for relative, content in collect_files(PACKAGE / "references/runtime").items()
-    }
-    assert templates and common
+    assert templates
     changes = []
-    for relative, desired in sorted({**templates, **common}.items()):
+    for relative, desired in sorted(templates.items()):
         path = check_path(target, relative)
         existing = saved_bytes(path)
         if relative == Path("AGENTS.md"):
             desired = entrypoint(existing, desired)
         elif existing is not None:
-            if relative in templates and installed is not None:
+            shared = (
+                relative in SHARED_DOCUMENTS
+                or COMMON in relative.parents
+                or VENDORED_METHODS in relative.parents
+            )
+            if installed is not None and not shared:
                 continue  # Published templates become project-owned files.
             if lf(existing) == lf(desired):
                 continue
