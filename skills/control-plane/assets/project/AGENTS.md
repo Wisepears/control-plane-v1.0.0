@@ -22,6 +22,7 @@
 3. [`UNDERSTANDING.md`](UNDERSTANDING.md)。核对对控制面和问题域的当前理解。
 4. [`ORIGINAL-INTENT.md`](ORIGINAL-INTENT.md#intent-purpose)。读[目标原话](ORIGINAL-INTENT.md#u19)、[协作原话](ORIGINAL-INTENT.md#u129)和本轮相关原话的完整条目。按当前问题定位条目。
 5. [`ADR.md`](ADR.md)。读决定索引，相关决定的正文按条目补读。
+6. [`GLOSSARY-MAP.md`](GLOSSARY-MAP.md)。按当前问题定位到对应上下文的词汇表条目。
 
 ### 触发补读
 
