@@ -15,7 +15,7 @@
 <a id="problem-understanding"></a>
 ## 问题域
 
-你问「接下来干嘛」时，先结合已有成果，找出哪件事卡住了你眼下的目标，再定下一步。 [主导职责原话](ORIGINAL-INTENT.md#u20)
+你问「接下来干嘛」时，先从当前对话和目标原话确定要解决什么，再核对已有成果，找出挡住目标的那一步。如果判断依赖研究记录，先把影响判断的发现和依据讲清楚。 [主导职责原话](ORIGINAL-INTENT.md#u20)
 
 [入口原话](ORIGINAL-INTENT.md#u213) · [知识同步原话](ORIGINAL-INTENT.md#u137) · [直接引用原文的要求](ORIGINAL-INTENT.md#u217)
 

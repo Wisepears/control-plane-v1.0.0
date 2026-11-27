@@ -9,7 +9,7 @@
 |---|---|---|
 | 控制面 | [foundation/GLOSSARY.md](foundation/GLOSSARY.md) | 协作、产出、工作流、原话标记、大脑方法论相关的术语 |
 | 问题域 | [domain/GLOSSARY.md](domain/GLOSSARY.md) · [公理与定理](domain/AXIOMS.md) | 问题域术语，以及解释问题所需的公理与定理。 |
-| 实现域 | [src/GLOSSARY.md](src/GLOSSARY.md) 或实现文档所在处的 GLOSSARY · [公理与定理](src/AXIOMS.md) | 代码、模型、数据和实现相关的术语、公理、定理。 |
+| 实现域 | [src/GLOSSARY.md](src/GLOSSARY.md) 或实现文档所在处的 GLOSSARY · [公理与定理](src/AXIOMS.md) | 代码、模型、数据集、预测技能相关的术语、公理、定理。 |
 
 术语的含义、适用范围或对象关系影响判断时，按 [domain modeling 原文](https://github.com/mattpocock/skills/blob/main/skills/engineering/domain-modeling/SKILL.md#discuss-concrete-scenarios) 澄清，再按[术语入表原话](foundation/关于内容维护.md#maintenance-principles)写入对应上下文。
 

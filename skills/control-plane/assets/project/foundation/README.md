@@ -28,13 +28,13 @@
 | 想知道什么 | 打开哪里 |
 |---|---|
 | 术语定义与具体用例 | [问题域词汇表](../domain/GLOSSARY.md) |
-| 按问题组织的判断和证据 | [领域查找](#domain-lookup) |
+| 按问题组织的研究判断和证据 | [领域查找](#domain-lookup) |
 | 已定决定的理由和适用范围 | [项目决策索引](../ADR.md)，按条目打开正文 |
 
 <a id="domain-lookup"></a>
 ### 领域查找
 
-- **找判断和实际证据**。从[当前目标与证据](../OBJECTIVE.md#证据与方法)进入相关[问题域正文](../domain/README.md)。
+- **找研究判断和实际证据**。从[当前目标与证据](../OBJECTIVE.md#证据与方法)进入相关[问题域正文](../domain/README.md)。
 - **词义、对象关系或适用范围影响判断**。查[问题域词汇表](../domain/GLOSSARY.md)。需要澄清时查[domain-modeling 原文](https://github.com/mattpocock/skills/blob/main/skills/engineering/domain-modeling/SKILL.md#discuss-concrete-scenarios)，形成术语后按[术语入表原话](关于内容维护.md#maintenance-principles)维护。
 - **已有取舍影响本轮做法**。从[项目决策索引](../ADR.md)定位决定正文。
 
@@ -49,6 +49,8 @@
 | 搁置讨论登记、续谈与归档 | [搁置讨论清单](../搁置讨论清单.md) |
 | 向其他 AI 交付本轮原话、理解和待办 | [交接](#交接) |
 
+需要回顾这段协作怎样形成，见[控制面协作收获](协作收获.md)。
+
 ## 交接
 
 ### 接手者能读取仓库
@@ -62,7 +64,7 @@
 <a id="repository-handoff"></a>
 ### 换设备或从 Git 恢复
 
-换设备或拿到仓库副本时，按[控制面目录](#control-plane)核对六类入口，再按[每轮必读](../AGENTS.md#每轮必读)开工。从[问题域正文](../domain/README.md)找项目资料。需要查原始产出时，随任务交付对应文件，并在接收方用的副本里确认可读。历史答复中的本机路径原样留存，换设备后按仓库里的对应文件位置查阅。见[原话](../ORIGINAL-INTENT.md#u132)。
+换设备或拿到仓库副本时，按[控制面目录](#control-plane)核对六类入口，再按[每轮必读](../AGENTS.md#每轮必读)开工。从[问题域正文](../domain/README.md)找项目资料。需要复跑或查原始输出时，随任务交付对应批次的实际文件，并在接收方用的副本里确认可读。历史答复中的本机路径原样留存，换设备后按仓库里的对应文件位置查阅。见[原话](../ORIGINAL-INTENT.md#u132)。
 
 保存需要交付的项目版本时，核对本次同步的文件范围，把版本同步到 GitHub，确认能打开后把版本链接交给你。见[交付方式原话](../ORIGINAL-INTENT.md#u133)。
 
