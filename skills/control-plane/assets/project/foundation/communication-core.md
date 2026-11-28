@@ -42,18 +42,19 @@ AI 向用户产出时，素材和依据从用户上下文来，不是 AI 自己�
 ＜/?...!＞
 
 <a id="方法原文"></a>
-### 大脑方法论
+### 大脑方法论（必读且掌握贯彻）
 
 ＜?...!＞
 - **交流内核【1】【2】【3】**：[交流方法原话](#交流方法原话)
-- <a id="写指令"></a>**引导词**：[引导词原文](skills/mattpocock/writing-great-skills/writing-great-skills.md#leading-words)
+- <a id="引导词"></a>**引导词**：[引导词原文](skills/mattpocock/writing-great-skills/writing-great-skills.md#leading-words)
 - **上下文指针**：[上下文指针原文](skills/mattpocock/writing-for-agents/writing-for-agents.md#context-pointers)
+- **matt总结的方法论**:[matt总结的方法论原文](skills/mattpocock/writing-for-agents/writing-for-agents.md).writing-for-agents和writing-great-skills里面的方法论如sediment等引导词GLOSSARY
 - <a id="content-growth"></a><a id="内容取舍"></a>**Pruning**：[Pruning 原文](skills/mattpocock/writing-for-agents/writing-for-agents.md#pruning) · [术语原文](skills/mattpocock/writing-great-skills/GLOSSARY.md#pruning)
 - **产出与问题探讨**：[产出与问题探讨原话](#production-principles)
 - **内容维护**：[内容维护原则](关于内容维护.md#maintenance-principles)
 - **控制面设计原则**：[设计原则原话](../ORIGINAL-INTENT.md#u199) （no-op暂且无视）
 
-[Matt 方法收录原话](../ORIGINAL-INTENT.md#u134) · [MIT 许可](skills/mattpocock/LICENSE)
+[Matt 方法收录原话](../ORIGINAL-INTENT.md#u134)
 ＜/?...!＞
 
 <a id="production-principles"></a>
@@ -124,7 +125,7 @@ AI 向用户产出时，素材和依据从用户上下文来，不是 AI 自己�
 <a id="part-2"></a>
 
 ＜!!＞
-【2】**保持【1】的所有要求，基于你的上次回复，完善或庞大体系，减少内容缺口，因为我现在还是有很多追问，下次让我没有疑问，当前我疑问的例子:你回复的内容中，什么是xxx等等，不要回答我的疑问，而是重构体系，让上次回复的流程更易于理解，更完整**
+【2】**保持【1】的所有要求，基于你的上次回复，完善或庞大体系，减少内容缺口，因为我现在还是有很多追问，下次让我没有疑问，当前我疑问的例子:你回复的内容中，什么是xxx等等，不要回答我的疑问，而是重构体系，让上次回复的流程更易于理解，更完整.[Matt 的垂直切片原文](https://www.aihero.dev/skills-to-tickets)**
 ＜/!!＞
 
 <a id="part-3"></a>
