@@ -12,6 +12,22 @@
 
 ## 术语
 
+### 控制面
+项目里确定目标、已有取舍、怎样探讨问题和组织产出的那一层，是项目内最高优先级。 [职能原话](../ORIGINAL-INTENT.md#u129) · [依赖倒置原话](../ORIGINAL-INTENT.md#u213)
+用例：每轮开工先读哪些、决定写进 ADR 还是 UNDERSTANDING，都由控制面判断；具体落在哪查[控制面结构](README.md#control-plane)。
+
+### 领域面
+按具体问题组织术语、前提和证据的那一层，和控制面分工：控制面管怎么做，领域面管判断依据。 [职能原话](../ORIGINAL-INTENT.md#u129) · [语义中心原话](../ORIGINAL-INTENT.md#u172)
+用例：判断两组结果是否可比，从领域面查指标定义和对照口径，不是从控制面查。
+
+### 大脑
+AI 处理输入和执行产出的结构，由必备知识和工作流程两个部分组成。 [结构原话](../ORIGINAL-INTENT.md#u218)
+用例：必备知识查[方法原文](communication-core.md#方法原文)；工作流程查[控制面和领域面工作流程](control-plane/workflow.md#workflow)。
+
+### 最小必读集
+首次接手和后续每轮开工前必须读完的最小材料集，读完再按触发条件补读。 [原话](../ORIGINAL-INTENT.md#u123)
+用例：每轮开工先读 AGENTS 最小必读集 6 项，再按本轮任务触发补读。
+
 ### 产出
 
 ＜!!＞
@@ -28,8 +44,7 @@
 ＜!!＞
 [原话](../ORIGINAL-INTENT.md#u136)
 
-用例：追问暴露上一版答案的断裂时，先修好受影响的一段，再用具体用例核对，这一动作就是重构。 [写回入口](control-plane/output-template.md#write-back)
-
+用例：追问暴露上一版答案的断裂时。
 ### 引导词
 
 ＜!!＞
@@ -37,6 +52,7 @@
 ＜/!!＞
 [原话](../ORIGINAL-INTENT.md#u158)
 
+定义：预训练里已有的紧凑概念，作为 token 反复出现，定义分散累积在各次出现处，不展开成句子。出现的次数就是它的定义。[Leading Word 原文](skills/mattpocock/writing-great-skills/GLOSSARY.md#leading-word)
 用例：用“引导词”约束 AI 的沟通和产出，收敛到用户关心的内容。
 
 ## 待从原话澄清的术语
@@ -45,9 +61,6 @@
 
 | 术语 | 用户原话 |
 |---|---|
-| 控制面 / 领域面 | [u129](../ORIGINAL-INTENT.md#u129) |
-| 每轮必读 | [u123](../ORIGINAL-INTENT.md#u123) · [u159](../ORIGINAL-INTENT.md#u159) |
-| 大脑 | [u199](../ORIGINAL-INTENT.md#u199) |
 | 痛点 | [u120](../ORIGINAL-INTENT.md#u120) |
 | 搁置讨论 | [u129](../ORIGINAL-INTENT.md#u129) |
 
